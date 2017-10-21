@@ -1,0 +1,6 @@
+Name: tensorflow
+Description: Tensorflow C library
+Version: 1.4
+tensorflow_path=/server/repository/tensorflow
+Libs: -L${tensorflow_path}/bazel-bin/tensorflow -ltensorflow
+Cflags: -I${tensorflow_path}

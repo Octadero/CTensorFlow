@@ -1,0 +1,5 @@
+module CTensorFlow [system] [extern_c] {
+  header "CTensorFlow.h"
+  link "tensorflow"
+  export *
+}
